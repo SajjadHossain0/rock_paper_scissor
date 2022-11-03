@@ -15,11 +15,11 @@ public class main {
 
            System.out.println("you choose : "+player + "\nComputer : "+computer);
            if (player.equals("rock") && computer.equals("rock"))
-               System.out.println("Tie...");
+               System.out.println("\nOh no! It's Tie...\n");
            else if (player.equals("paper") && computer.equals("paper"))
-               System.out.println("Tie...");
+               System.out.println("\nOh no! It's Tie...\n");
            else if (player.equals("scissor") && computer.equals("scissor"))
-               System.out.println("Tie...");
+               System.out.println("\nOh no! It's Tie...\n");
 
            else if (player.equals("rock") && computer.equals("scissor"))
                System.out.println("\nCongratulation! You win...\n");
